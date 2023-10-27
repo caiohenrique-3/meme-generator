@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="img-container">
-        <img src="meme-generator/src/assets/Icon.png" alt="Logo of the site" />
+        <img src="./Icon.png" alt="Logo of the site" />
       </div>
       <h2>Meme Generator</h2>
 
