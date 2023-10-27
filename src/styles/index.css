@@ -30,7 +30,6 @@
 
 html {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(1rem, 0.25rem + 1.5vw, 2rem);
 }
 
 :root {

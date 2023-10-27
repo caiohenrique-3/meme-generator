@@ -53,6 +53,7 @@ main .img-container {
 
 main .img-container img {
   inline-size: 100%;
+  max-inline-size: 800px;
   block-size: auto;
 }
 
