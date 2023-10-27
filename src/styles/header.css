@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: var(--other-color);
+  color: var(--text-color);
+}
+
+header .img-container {
+  display: flex;
+}
+
+header .img-container img {
+  inline-size: 4rem;
+  block-size: auto;
+}
+
+header h2 {
+  font-weight: 400;
+  margin-inline-end: auto;
+}
+
+header h3 {
+  font-weight: 400;
+  display: none;
+  padding-inline-end: 0.5rem;
+}
+
+header a {
+  color: var(--text-color);
+  text-underline-offset: 0.2rem;
+}
+
+header a:hover,
+header a:focus {
+  color: black;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  header h3 {
+    display: block;
+  }
+}

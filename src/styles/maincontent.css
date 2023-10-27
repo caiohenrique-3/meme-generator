@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-block-size: 100vh;
+}
+
+main {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+main .input-container {
+  text-align: center;
+}
+
+main .input-container input {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0 auto;
+  margin-block-end: 1rem;
+  font-size: 0.9rem;
+}
+
+main .button-container {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1rem;
+}
+
+main .button-container button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--other-color);
+  color: var(--text-color);
+}
+
+main .button-container button:hover,
+main .button-container button:focus {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+main .img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin-block-start: 2rem;
+}
+
+main .img-container img {
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.meme-text {
+  pointer-events: none;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 1);
+  color: var(--text-color);
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+main .img-container #top-text {
+  position: absolute;
+  top: 0;
+}
+
+main .img-container #bottom-text {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 620px) {
+  main .input-container {
+    display: flex;
+  }
+
+  main .input-container input:first-child {
+    margin-inline-end: 1rem;
+  }
+
+  main .button-container button {
+    inline-size: 100%;
+  }
+}
